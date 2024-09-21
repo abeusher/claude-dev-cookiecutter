@@ -3,5 +3,5 @@
   "project_slug": "claudedev-project",
   "backend_port": 8000,
   "frontend_port": 3000,
-  "script_name": "my_python_script.py",
+  "script_name": "my_python_script.py"
 }
