@@ -1,0 +1,18 @@
+[project]
+name = "claude-dev-cookiecutter"
+version = "0.0.1"
+description = "ClaudeDev Python Template"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+readme = "README.md"
+authors = [{ name = "Abe Usher", email = "abe.usher@gmail.com" }]
