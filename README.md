@@ -10,11 +10,20 @@ cookiecutter https://github.com/abeusher/claude-dev-cookiecutter.git
 
 2. Have chat with a high quality LLM to plan out your project
 
-3. Update your README.md with the results of your chat
+3. Update your todo.md with the results of your chat
 
-4. Update your developer_notes.md with the results of your chat
+4. Add a one line entry to your developer_notes.md if it is empty
 
-5. Update your todo.md with the results of your chat
+5. Open up Claude-Dev extension with cmd-shift-P and select "Claude-Dev: Open in New Tab"
+
+6. Start Claude-Dev by giving it context using this command:
+@/README.md @/developer_notes.md @/todo.md @/ux_overview.md @/project_overview.md @/tests/test_all_code.py
+
+If that worked, it should start asking to create files according to your todo.md.
+
+Much of the behavior is controlled in the project_overview.md 'KEY_REQUIREMENTS' section
+
+7. Have fun!
 
 ## Features
 
